@@ -10,7 +10,7 @@ public class CSVParser {
     public ArrayList<Student> allStudents(){
         ArrayList<Student> arrayList = new ArrayList<Student>();
 
-        String csvFile = "studentlist.csv";
+        String csvFile = "students.csv";
         BufferedReader br = null;
         String line = "";
         String cvsSplitBy = ",";
